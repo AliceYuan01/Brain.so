@@ -11,4 +11,9 @@ const llm = new ChatOpenAI({
   temperature: 0
 });
 
-console.log(llm.invoke([{ role: "user", content: "Hi im bob" }]));
+const result = await llm.invoke([
+    { role: "user", content: "Hi! I'm Bob" },
+    { role: "assistant", content: "Hello Bob! How can I assist you today?" },
+    { role: "user", content: "What's my name?" },
+  ]);
+console.log(result['content'])
