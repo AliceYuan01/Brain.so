@@ -1,0 +1,26 @@
+/* Alert.module.css */
+
+.alert {
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0.25rem;
+  font-family: 'Roboto', sans-serif; /* Use your chosen font */
+}
+
+.alert.success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.alert.error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.alert.info {
+  color: #0c5460;
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+}

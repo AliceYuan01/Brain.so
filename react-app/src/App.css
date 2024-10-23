@@ -1,0 +1,6 @@
+/* Add this to your global CSS or relevant module */
+h2 {
+    font-family: 'Roboto', sans-serif; /* Or any font of your choice */
+    color: #333;  /* Dark color for better readability */
+    margin-bottom: 1rem; /* Space below the heading */
+  }
