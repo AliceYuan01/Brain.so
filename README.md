@@ -20,8 +20,8 @@ Brain.so is a demo application that leverages [LangChain](https://www.langchain.
    cd Brain.so
 
 ### Useage
+Run the App.tsx under the folder react-app/src
 To start the application:
   ```bash
   npm run dev
-
 
